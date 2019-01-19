@@ -157,9 +157,10 @@ export default {
         a {
           color: $white;
           text-decoration: none;
+          transition: color .3s;
 
           &:hover {
-            color: $lightGreen;
+            color: $yellow;
           }
         }
       }
